@@ -1,5 +1,5 @@
 n=int(input())
-if(n>="a" && n<="z" || n>="A" && n<="Z"):
+if(n>="a" and n<="z" or n>="A" and n<="Z"):
   print("Alphabet")
 else:
   print("No")
